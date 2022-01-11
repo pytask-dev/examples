@@ -1,0 +1,17 @@
+# Files
+.coverage
+coverage.*
+
+# Folders
+.idea
+.ipynb_checkpoints
+.tox
+.vscode
+_build
+__pycache__
+_generated
+bld
+
+*.egg-info
+
+.pytask.sqlite3
