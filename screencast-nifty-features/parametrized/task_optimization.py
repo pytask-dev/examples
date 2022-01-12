@@ -14,9 +14,9 @@ PRODUCES_ALGOS = [
             "result": BLD / a / "optimization.pkl",
             "log": BLD / a / "optimization.db",
         },
-        algo,
+        a,
     ]
-    for algo in _ALGOS
+    for a in _ALGOS
 ]
 
 
