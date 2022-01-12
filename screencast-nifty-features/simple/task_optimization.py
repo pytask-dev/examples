@@ -6,8 +6,8 @@ from config import BLD
 
 
 PRODUCES = {
-    "result": BLD / "scipy_lbfgsb" / "optimization.pkl",
-    "log": BLD / "scipy_lbfgsb" / "optimization.db",
+    "result": BLD / "optimization.pkl",
+    "log": BLD / "optimization.db",
 }
 
 

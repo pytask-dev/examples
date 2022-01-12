@@ -11,8 +11,8 @@ _ALGOS = ["scipy_lbfgsb", "scipy_neldermead"]
 PRODUCES_ALGOS = [
     [
         {
-            "result": BLD / algo / "parametrized" / "optimization.pkl",
-            "log": BLD / algo / "parametrized" / "optimization.db",
+            "result": BLD / a / "optimization.pkl",
+            "log": BLD / a / "optimization.db",
         },
         algo,
     ]
