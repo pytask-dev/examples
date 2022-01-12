@@ -1,0 +1,20 @@
+name: pytask-examples
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.9
+  - pytask
+  - pytask-latex
+  - pytask-parallel
+  - estimagic
+  - pip
+  - plotly
+  - python-kaleido
+
+  - pip:
+      - black
+      - pre-commit
+      - pdbpp
