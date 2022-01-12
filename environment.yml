@@ -5,6 +5,7 @@ channels:
   - defaults
 
 dependencies:
+  - conda-build
   - python=3.9
   - pytask
   - pytask-latex
